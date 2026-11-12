@@ -1,0 +1,16 @@
+START
+Set secret number to 54
+Ask student to enter a guess
+
+WHILE guess is not 54
+    IF guess is greater than 54
+        Display "Too high"
+    ELSE
+        Display "Too low"
+    END IF
+
+    Ask student to enter another guess
+END WHILE
+
+Display "Correct! You guessed it!"
+END
