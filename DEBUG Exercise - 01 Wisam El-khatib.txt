@@ -1,0 +1,42 @@
+
+DEBUG Exercise 01
+Name: Wisam El-Khatib
+
+Question 1: What steps would you take to identify any issues in the code?
+
+I would go through the pseudocode one line at a time and check for mistakes. I would start by looking at the variable names and making sure they are spelled correctly. Then I would check the input statements, calculations, and IF/ELSE statements. I would also test the program with different test scores to make sure the averages and pass-or-fail results are correct.
+
+Question 2: What actions could the developer have taken to minimize the number of errors?
+
+The developer could have checked the pseudocode more carefully while writing it. They could have reviewed the variable names, indentation, and input statements along the way. Testing each section before moving on to the next one could have helped catch mistakes earlier.
+
+Corrected Pseudocode:
+
+start
+   Declarations
+      num firstTest
+      num secondTest
+      num average
+      num PASSING = 60
+
+   output "Enter first score or 0 to quit "
+   input firstTest
+
+   while firstTest <> 0
+      output "Enter second score "
+      input secondTest
+
+      average = (firstTest + secondTest) / 2
+
+      output "Average is ", average
+
+      if average >= PASSING then
+         output "Pass"
+      else
+         output "Fail"
+      endif
+
+      output "Enter first score or 0 to quit "
+      input firstTest
+   endwhile
+stop
