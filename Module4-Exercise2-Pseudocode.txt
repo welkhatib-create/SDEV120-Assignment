@@ -1,0 +1,17 @@
+START
+Choose a word at random
+Open dictionary
+Read word on current page
+
+WHILE current word is not the target word
+    IF target word comes before current word alphabetically
+        Move toward the beginning of the dictionary
+    ELSE
+        Move toward the end of the dictionary
+    END IF
+
+    Read word on current page again
+END WHILE
+
+Display "Word found!"
+END
